@@ -49,7 +49,7 @@ face_data=np.asarray(face_data)
 face_data=face_data.reshape((face_data.shape[0],-1))
 print(face_data.shape)
 
-np.save('Vimla.npy',face_data)
+np.save('name.npy',face_data)
 print("Data successfully saved ")
 
 cap.release()
